@@ -24,7 +24,7 @@ function Cancha({ cancha }) {
                     <p>Descripcion: {cancha.descripcion}</p>
                 </b>
                 <div style={{ float: "right" }}>
-                    <Link to={`/cancha/${id}/turnos`}>
+                    <Link to={`/book/${cancha._id}`}>
                     <button className='btn btn-primary m-2'>Reservar</button>
                     </Link>
                     <button className='btn btn-primary' onClick={handleShow}>Ver detalles</button>

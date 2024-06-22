@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useParams } from "react";
+/*import React, { useState, useEffect, useParams } from "react";
 import api from '../services/api';
 
 
@@ -39,4 +39,4 @@ function TurnosPage() {
 
 }
 
-export default TurnosPage;
+export default TurnosPage;*/

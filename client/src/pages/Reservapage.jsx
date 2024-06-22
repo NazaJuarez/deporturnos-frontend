@@ -47,23 +47,22 @@ function Reservapage() {
             </div>
             <div className="col-md-6">
               <div style={{textAlign:'right'}}>
-                <h1>Renting Details</h1>
+                <h1>Datos de la reserva</h1>
                 <hr />
                 <b>
-                  <p>Name: </p>
-                  <p>From Date: </p>
-                  <p>To Date: </p>
-                  <p>Maximum people: </p>
+                  <p>Name:</p>
+                  <p>Fecha: </p>
+                  <p>Hora: </p>
+                  <p>Caracteristicas: </p>
+                  <p>Deporte: </p>
                 </b>
               </div>
               <div style={{textAlign:'right'}}>
                 <b>
-                  <h1>Amount</h1>
+                  <h1>Precio</h1>
                   <hr />
 
-                  <p>Total Months: </p>
-                  <p>Per Month: {data.rentpermonth} </p>
-                  <p>Total Amount: </p>
+                  <p>Precio Total: </p>
                 </b>
               </div>
               <div style={{float:'right'}}>
